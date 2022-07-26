@@ -1,0 +1,35 @@
+.nav-list {
+   font-size: 0;
+}
+.list-item {
+   display: inline-block;
+   list-style-type: none;
+   position: relative;
+}
+.link {
+   font-size: 20px;
+   color: white;
+   text-decoration: none;
+   padding: 15px;
+   background-color: orange;
+}
+.sub-nav-list {
+   position: absolute;
+   top: 37px;
+   left: -40px;
+}
+.sub-list-item {
+   font-size: 20px;
+   list-style-type: none;
+   display: none;
+   background-color: orange;
+}
+.sub-link{
+   display: block;
+   text-decoration: none;
+   color: white;
+   padding: 20px;
+}
+.list-item:hover .sub-list-item{
+   display: block;
+}
